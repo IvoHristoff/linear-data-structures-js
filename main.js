@@ -1,4 +1,8 @@
-import stackTest from './script-tests/stack-test-script.js';
+import linedStackTest from './script-tests/linkedstack-test-script.js';
+import arrayStackTest from './script-tests/arraystack-test-script.js';
 
-console.log('\n-------------Linked List Stack---------------\n');
-stackTest();
+console.log('\n-------------Linked Stack---------------\n');
+linedStackTest();
+
+console.log('\n-------------Array Stack---------------\n');
+arrayStackTest();
