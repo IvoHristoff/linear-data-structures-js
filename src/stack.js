@@ -36,13 +36,13 @@ export class Stack {
      */
     pop(){
         if (!this.#top){
-            throw new Error('Stack is empty')
+            throw new Error('Cant pop if stack is empty')
         }
         const value = this.#top;
-        this.#top = this.#top.next
+        this.#top = this.#top.next;
 
         this.#counter--;
-        return value;
+        return value.value;
     }
 
     /**
@@ -52,7 +52,7 @@ export class Stack {
      */
     peek(){
         if (!this.#top){
-            throw new Error('Stack is empty')
+            throw new Error('Cant peek if stack is empty')
         }
 
         return this.#top.value;
