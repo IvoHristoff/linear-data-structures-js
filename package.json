@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "main.js"
+    "test": "node main.js"
   },
   "author": "Ivo Hristov",
   "license": "ISC",
