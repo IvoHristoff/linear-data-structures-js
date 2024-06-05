@@ -1,20 +1,21 @@
-import { Stack } from '../src/stack.js';
+import { LinkedListStack } from '../src/linked-list-stack.js';
 
 
 export default function main(){
 
-    const stack = new Stack();
+    const stack = new LinkedListStack();
+
 
     // Test isEmpty
-    console.log(`Is stack empty? ${stack.isEmpty}`); // Expected: true
+    console.log(`Is linked stack empty?: ${stack.isEmpty}`); // Expected: true
 
-    console.log('Pushing values onto the stack...');
+    console.log('\nPushing values onto the stack...\n');
 
     stack.push(15);
     stack.push(33);
     stack.push(9);
 
-    console.log(`Is stack empty? ${stack.isEmpty}`); // Expected: false
+    console.log(`Is linked stack empty?: ${stack.isEmpty}`); // Expected: false
     console.log(`Current count: ${stack.count}`); // Expected: 3
 
     // Test peek

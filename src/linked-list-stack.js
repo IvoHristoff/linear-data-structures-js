@@ -4,7 +4,7 @@ import LinkedListNode from './linked-list-node.js';
  * Stack implementation using linked list.
  * @class
  */
-export class Stack {
+export class LinkedListStack {
 
      /**
      * @private
