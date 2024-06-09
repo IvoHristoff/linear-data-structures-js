@@ -1,8 +1,10 @@
+import ListNode from './list-node.js';
+
 /**
  * LinkedList class represents a singly linked list data structure.
  * @class
  */
-class LinkedList {
+export class LinkedList {
     /**
      * @private
      * @type {ListNode|null}
