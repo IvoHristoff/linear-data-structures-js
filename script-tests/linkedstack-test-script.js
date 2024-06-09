@@ -4,7 +4,6 @@ export default function main(){
 
     const stack = new LinkedStack();
 
-
     // Test isEmpty
     console.log(`Is linked stack empty?: ${stack.isEmpty}`); // Expected: true
 

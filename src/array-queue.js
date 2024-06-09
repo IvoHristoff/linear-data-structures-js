@@ -2,7 +2,7 @@
  * Queue class represents a queue data structure using an array.
  * @class
  */
-export class Queue {
+export class ArrayQueue {
 
     /**
      * @private
