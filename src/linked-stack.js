@@ -1,4 +1,4 @@
-import LinkedListNode from './linked-list-node.js';
+import ListNode from './list-node.js';
 
 /**
  * Stack implementation using linked list.
@@ -8,7 +8,7 @@ export class LinkedStack {
 
      /**
      * @private
-     * @type {LinkedListNode|null}
+     * @type {ListNode|null}
      */
     #top = null;
 
@@ -23,7 +23,7 @@ export class LinkedStack {
      * @param {*} value - The value to be pushed onto the stack.
      */
     push(value){
-        const node = new LinkedListNode(value);
+        const node = new ListNode(value);
         node.next = this.#top;
         this.#top = node;
         this.#counter++;

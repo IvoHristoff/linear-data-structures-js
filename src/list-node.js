@@ -2,15 +2,15 @@
  * Represents a node in a linked list.
  * @class
  */
-export default class LinkedListNode {
+export default class ListNode {
 
      /**
-     * Creates a new LinkedListNode.
+     * Creates a new ListNode.
      * @param {*} value - The value stored in the node.
      */
-    constructor(value) {
+    constructor(value, next) {
         this.value = value;
-        this.next = null;
+        this.next = next || null;
         this.prev = null;
     }
 }
