@@ -28,11 +28,11 @@ export class LinkedQueue {
     #counter = 0;
 
     /**
-     * Adds an item to the end of the queue.
-     * @param {*} item - The item to be added to the queue.
+     * Adds an value to the end of the queue.
+     * @param {*} value - The value to be added to the queue.
      */
-    enqueue(item){
-        const node = new ListNode(item);
+    enqueue(value){
+        const node = new ListNode(value);
         if (!this.#head){
             this.#head = node;
         } else {
