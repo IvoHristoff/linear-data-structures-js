@@ -87,6 +87,14 @@ export class LinkedList {
     }
 
     /**
+     * Gets the number of elements in the stack.
+     * @returns {number} The number of elements in the stack.
+     */
+    get count(){
+        return this.#counter;
+    }
+
+    /**
      * Generator function to iterate over the linked list.
      * @returns {IterableIterator<*>} An iterator that yields the values of the nodes in the list.
      */

@@ -36,7 +36,7 @@ export class LinkedStack {
      */
     pop(){
         if (!this.#top){
-            throw new Error('Cant pop if stack is empty')
+            throw new Error('Cant pop if stack is empty');
         }
         const value = this.#top;
         this.#top = this.#top.next;
@@ -52,7 +52,7 @@ export class LinkedStack {
      */
     peek(){
         if (!this.#top){
-            throw new Error('Cant peek if stack is empty')
+            throw new Error('Cant peek if stack is empty');
         }
 
         return this.#top.value;

@@ -21,7 +21,7 @@ export class ArrayStack {
      * @param {*} value - The value to be pushed onto the stack.
      */
     push(value){
-        this.#items.push(value)
+        this.#items.push(value);
         this.#counter++;
     }
 
@@ -45,7 +45,7 @@ export class ArrayStack {
      */
     peek(){
         if (!this.#items){
-            throw new Error('Cant peek if stack is empty')
+            throw new Error('Cant peek if stack is empty');
         }
 
         return this.#items[this.#items.length - 1];
