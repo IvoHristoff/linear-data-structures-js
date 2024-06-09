@@ -1,4 +1,4 @@
-import ListNode from "./list-node";
+import ListNode from "./list-node.js";
 
 /**
  * LinkedQueue class represents a queue using a linked list.

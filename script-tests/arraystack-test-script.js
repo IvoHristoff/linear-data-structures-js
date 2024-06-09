@@ -2,7 +2,6 @@ import { ArrayStack } from '../src/array-stack.js';
 
 export default function main(){
 
-
     const stack = new ArrayStack();
 
     // Test isEmpty
